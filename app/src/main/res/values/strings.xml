@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">grafikaWprowadzenie</string>
+    <string name="dalej">Dalej</string>
+    <string name="wstecz">Wstecz</string>
+    <string name="poka_obraz">Pokaż obraz</string>
+    <string name="ukry_obrazj">Ukryj obraz</string>
+</resources>

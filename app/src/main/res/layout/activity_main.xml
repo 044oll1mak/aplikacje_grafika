@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/obraz1" />
+    <!--
+    matchparent - rozmiar nadrzędnego
+    wrap content - dostosuj do zawartosci
+    -->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/kolor_przycisku"
+        android:padding="@dimen/margines_wewnetrzny"
+        android:layout_margin="@dimen/margines_zewnetrzny"
+        android:textColor="#44dd99"
+        android:text="@string/poka_obraz" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/kolor_przycisku"
+            android:padding="@dimen/margines_wewnetrzny"
+            android:layout_margin="@dimen/margines_zewnetrzny"
+            android:text="@string/wstecz" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/kolor_przycisku"
+            android:padding="@dimen/margines_wewnetrzny"
+            android:layout_margin="@dimen/margines_zewnetrzny"
+            android:text="@string/dalej" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/rizmiar_czcionki"
+        android:textColor="@color/kolor_przycisku"
+        android:padding="@dimen/margines_wewnetrzny"
+        android:layout_gravity="center"
+        android:text="Wybierz numer zdjecia" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="numer zdjecia"
+        android:layout_margin="@dimen/margines_zewnetrzny"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/kolor_przycisku"
+        android:text="Pokaż obraz" />
+
+</LinearLayout>

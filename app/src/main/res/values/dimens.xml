@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margines_wewnetrzny">16dp</dimen>
+    <dimen name="margines_zewnetrzny">24dp</dimen>
+    <dimen name="rizmiar_czcionki">24sp</dimen>
+</resources>
